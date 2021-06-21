@@ -15,11 +15,53 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
         body {
-            background-color: #B0E58C;
+            background-color: #783937FF;
+        }
+
+        a
+        {
+            color:#F1AC88FF;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
         h1 {
             font-size: 30;
+        }
+
+        div.center-fit {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        div.centered {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 400%;
+            opacity: 80%;
+        }
+
+        div.Maindesc-center-fit
+        {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        div.Maindesc
+        {
+            position: absolute;
+            top: 110%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 200%;
+            
         }
 
     </style>
@@ -30,9 +72,9 @@
 
 
 <body>
-    <div class="jumbotron text-center ">
-        <h1>SHERLON FRATER</h1>
-
+    <div>
+        <img class="center-fit" src="Images/background.jpg" alt="background" style="width: 100%; height: 350px;">
+        <div class="centered">SHERLON FRATER</div>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -57,21 +99,14 @@
             </ul>
         </div>
     </nav>
-   
-   <div class="container text-center">
-        <div class="row">
-            <div class="col-sm-4">
-               
-            </div>
-            <div class="col-sm-4">
-                <h3>Column 2</h3>
-                <p></p>
-            </div>
-            <div class="col-sm-4">
-        
-            </div>
+    <div>
+        <img class="Maindesc-center-fit" src="Images/main.jpg" alt="background" style="width: 100%;">
+        <div class="Maindesc">HELLO, I AM SHERLON FRATER<br> WELCOME TO MY WEBSITE<br>PLEASE NAVIGATE THE MENU TO SEE MY<br>
+                              PROJECTS,CONTACTS<br>
+                            AND INFORMATION ABOUT ME. 
         </div>
     </div>
+
 
    
 </body>
